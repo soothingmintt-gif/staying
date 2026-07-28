@@ -1,0 +1,127 @@
+.community-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.community-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 16px;
+  background: var(--surface);
+}
+
+.community-card-restaurant {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.community-card-restaurant img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.community-card-restaurant-name {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.community-card-restaurant-meta {
+  font-size: 12px;
+  color: var(--sub-text);
+}
+
+.comment-list {
+  margin-top: 10px;
+  padding: 10px 12px;
+  background: var(--bg);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.comment-item {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.comment-author {
+  font-weight: 700;
+}
+
+.comment-form {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.comment-form input {
+  flex: 1;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-family: var(--font);
+  font-size: 13px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.form-field-label-standalone {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.selected-restaurant-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.selected-restaurant-row img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.selected-restaurant-row .picker-item-name {
+  flex: 1;
+}
+
+.change-restaurant-link {
+  border: none;
+  background: none;
+  color: var(--primary-text);
+  font-family: var(--font);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.rating-input {
+  display: flex;
+  gap: 6px;
+}
+
+.rating-input button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.rating-input .icon-sm {
+  width: 22px;
+  height: 22px;
+}

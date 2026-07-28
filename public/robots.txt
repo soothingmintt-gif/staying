@@ -1,0 +1,7 @@
+# Replace https://staying.example below with the real production domain once deployed.
+User-agent: *
+Allow: /
+Disallow: /archive
+Disallow: /me
+
+Sitemap: https://staying.example/sitemap.xml

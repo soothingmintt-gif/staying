@@ -1,0 +1,263 @@
+/* 칩 (구 필터) */
+.district-filter {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 4px 0 12px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.district-filter::-webkit-scrollbar {
+  display: none;
+}
+
+.chip {
+  flex-shrink: 0;
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.chip.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+  font-weight: 700;
+}
+
+/* 카테고리 탭 (Airbnb 스타일: 아이콘 위 + 라벨 아래 + 밑줄) */
+.cat-tab-bar {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  padding: 4px 0 16px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 20px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.cat-tab-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.cat-tab {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 2px 14px;
+  border-bottom: 2px solid transparent;
+  background: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color: var(--sub-text);
+  cursor: pointer;
+  opacity: 0.65;
+}
+.cat-tab:hover {
+  opacity: 1;
+}
+.cat-tab-icon {
+  font-size: 22px;
+  line-height: 1;
+}
+.cat-tab-label {
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.cat-tab.active {
+  opacity: 1;
+  color: var(--primary-text);
+  border-bottom-color: var(--primary);
+}
+
+/* 카테고리 섹션 */
+.category-section {
+  margin-bottom: 28px;
+}
+
+.category-section-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.category-section-head h2 {
+  font-size: 18px;
+}
+
+.category-section-head p {
+  font-size: 13px;
+  color: var(--sub-text);
+}
+
+.category-section.highlighted .category-section-head h2 {
+  color: var(--primary-text);
+}
+
+.category-section-scroll {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scroll-snap-type: x proximity;
+}
+
+.category-section-item {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 200px;
+}
+
+/* 식당 카드 */
+.restaurant-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  transition: box-shadow 0.15s;
+}
+
+.restaurant-card:hover {
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.12);
+}
+
+.restaurant-card-img-wrap {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background: var(--border);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+}
+
+.restaurant-card-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.restaurant-card-badges {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: flex;
+  gap: 4px;
+}
+
+.badge {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.2);
+}
+
+.badge-new {
+  color: var(--primary);
+}
+
+.badge-hot {
+  color: var(--danger);
+}
+
+.restaurant-card-bookmark {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.45);
+  border: none;
+  border-radius: 999px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+}
+.restaurant-card-bookmark .icon {
+  width: 16px;
+  height: 16px;
+}
+
+.restaurant-card-body {
+  padding: 10px 12px 12px;
+}
+
+.restaurant-card-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.restaurant-card-title-row h3 {
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.restaurant-card-rating {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.icon-sm {
+  width: 14px;
+  height: 14px;
+  stroke: #f5a623;
+  fill: #f5a623;
+}
+
+.restaurant-card-meta {
+  font-size: 12px;
+  color: var(--sub-text);
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.restaurant-card-tags {
+  display: flex;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.restaurant-card-tags li {
+  font-size: 11px;
+  color: var(--primary-text);
+}
+
+.rating-stars {
+  display: inline-flex;
+  gap: 2px;
+}
+
+.icon-star-empty {
+  stroke: var(--border);
+  fill: var(--border);
+}
+
+.icon-sm-line {
+  width: 15px;
+  height: 15px;
+  color: var(--sub-text);
+  flex-shrink: 0;
+}

@@ -1,0 +1,17 @@
+@import './styles/tokens.css';
+@import './styles/layout.css';
+@import './styles/restaurant.css';
+@import './styles/home.css';
+@import './styles/explore.css';
+@import './styles/detail.css';
+@import './styles/modal.css';
+@import './styles/archive.css';
+@import './styles/community.css';
+@import './styles/mypage.css';
+@import './styles/legal.css';
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}

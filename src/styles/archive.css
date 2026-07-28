@@ -1,0 +1,149 @@
+.archive-subtitle {
+  color: var(--sub-text);
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.archive-create-btn {
+  margin-bottom: 20px;
+}
+
+.archive-list-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+@media (min-width: 640px) {
+  .archive-list-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.archive-list-card {
+  display: block;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.archive-list-cover {
+  aspect-ratio: 4 / 3;
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--border);
+}
+
+.archive-list-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.archive-list-body {
+  padding: 10px 12px 12px;
+}
+
+.archive-list-body h3 {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.archive-list-desc {
+  font-size: 12px;
+  color: var(--sub-text);
+  margin-top: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.archive-list-count {
+  font-size: 12px;
+  color: var(--sub-text);
+  margin-top: 6px;
+}
+
+.archive-detail-title {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.archive-detail-desc {
+  color: var(--sub-text);
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.share-link-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 12px;
+  margin: 14px 0;
+}
+
+.share-link-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.share-link-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--sub-text);
+}
+
+.share-link-url {
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.archive-detail-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.btn-text-danger {
+  background: none;
+  border: none;
+  color: var(--danger);
+  font-family: var(--font);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.archive-restaurant-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.archive-remove-btn {
+  border: none;
+  background: none;
+  color: var(--sub-text);
+  font-family: var(--font);
+  font-size: 12px;
+  cursor: pointer;
+  padding: 2px 0;
+  text-align: left;
+}
+.archive-remove-btn:hover {
+  color: var(--danger);
+}

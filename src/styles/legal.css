@@ -1,0 +1,39 @@
+.legal-page {
+  max-width: 640px;
+}
+
+.legal-updated {
+  font-size: 13px;
+  color: var(--sub-text);
+  margin-bottom: 20px;
+}
+
+.legal-heading {
+  font-size: 17px;
+  margin: 28px 0 10px;
+}
+
+.legal-paragraph {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.legal-paragraph a {
+  color: var(--primary-text);
+  text-decoration: underline;
+}
+
+.legal-list {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 8px 0 16px;
+}
+
+.legal-list li {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text);
+  margin-bottom: 4px;
+}

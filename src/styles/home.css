@@ -1,0 +1,23 @@
+.home-hero {
+  border-radius: 16px;
+  padding: 16px 20px;
+  background: var(--primary-tint);
+  border: 1px solid var(--primary-tint-border);
+  color: var(--primary-deep);
+  margin-bottom: 4px;
+}
+
+.home-hero-eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--primary-text);
+  margin-bottom: 4px;
+}
+
+.home-hero h1 {
+  color: var(--primary-deep);
+  font-size: 18px;
+  line-height: 1.35;
+}
