@@ -1,154 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 실제 배포 도메인이 정해지면 전체 URL의 https://staying.example 부분을 실제 도메인으로 교체하세요. -->
 <!-- 숙소 상세 페이지 목록은 현재 더미 데이터 기준이며, 실제 데이터 연동 후 자동 생성 스크립트로 교체가 필요합니다. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://staying.example/</loc>
+    <loc>https://staying-nine.vercel.app/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://staying.example/explore</loc>
+    <loc>https://staying-nine.vercel.app/explore</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://staying.example/community</loc>
+    <loc>https://staying-nine.vercel.app/community</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://staying.example/about</loc>
+    <loc>https://staying-nine.vercel.app/about</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://staying.example/privacy</loc>
+    <loc>https://staying-nine.vercel.app/privacy</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://staying.example/terms</loc>
+    <loc>https://staying-nine.vercel.app/terms</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r01</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r01</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r02</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r02</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r03</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r03</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r04</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r04</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r05</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r05</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r06</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r06</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r07</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r07</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r08</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r08</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r09</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r09</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r10</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r10</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r11</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r11</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r12</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r12</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r13</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r13</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r14</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r14</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r15</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r15</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r16</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r16</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r17</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r17</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r18</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r18</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r19</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r19</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r20</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r20</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r21</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r21</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r22</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r22</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r23</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r23</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://staying.example/restaurant/r24</loc>
+    <loc>https://staying-nine.vercel.app/restaurant/r24</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
